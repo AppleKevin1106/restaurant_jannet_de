@@ -1,0 +1,202 @@
+.auth {
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+
+.section {
+    margin-top: 75px;
+    height: calc(100vh - 75px);
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.auth__main {
+    margin-bottom: 120px;
+    width: 100%;
+    position: relative;
+}
+
+.auth__box {
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1400px;
+}
+
+.auth__window {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.auth__main__box {
+    box-sizing: border-box;
+    min-height: 1px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 66.66666666666667%;
+    flex-basis: 66.66666666666667%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 66.66666666666667%;
+    margin-left: 0%;
+    right: auto;
+    left: auto;
+}
+
+.auth__run {
+    display: flex;
+    box-shadow: rgb(145 145 202 / 20%) 0px 7px 29px 0px;
+    flex: 1 1 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.auth__section__left {
+    display: flex;
+    position: relative;
+    height: 400px;
+    /* display: none; */
+    flex: 1 1 0%;
+    background-color: rgb(249, 249, 249);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    overflow: hidden;
+}
+
+.auth__section__left__span {
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.auth__login__img {
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    visibility: visible;
+}
+
+.auth__section__right {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 24px 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.login__title {
+    margin: -24px 0px 0px;
+    padding: 20px 20px 10px;
+    font-size: 32px;
+}
+
+.login__desc {
+    margin: 0px;
+    padding: 0px 24px;
+    font-size: 18px;
+}
+
+.login__button {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+    display: none;
+}
+
+.auth__button__main {
+    gap: 1rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.auth__button__box {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-style: none;
+    display: flex;
+}
+
+.auth__button__email {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    --tw-text-opacity: 1;
+    color: rgb(202 138 4/var(--tw-text-opacity));
+    text-align: center;
+    padding: 0.5rem;
+    --tw-border-opacity: 1;
+    border-color: rgb(234 179 8/var(--tw-border-opacity));
+    border-bottom-width: 2px;
+    flex: 1 1 0%;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+
+    /* -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    margin: 0; */
+}
+
+.auth__button__phone {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0/var(--tw-text-opacity));
+    padding: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    flex: 1 1 0%;
+    display: flex;
+    cursor: pointer;
+}
